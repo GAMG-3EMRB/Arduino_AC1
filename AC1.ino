@@ -3,8 +3,8 @@ const int vermelho = 5;
 const int verde = 6;
 const int azul = 7;
 
-const int botao1 = 2;
-const int botao2 = 3;
+const int iniciar = 2;
+const int finalizar = 3;
 unsigned long lastDebounceTime1 = 0;
 unsigned long lastDebounceTime2 = 1;
 const int botaoDelay = 100;
