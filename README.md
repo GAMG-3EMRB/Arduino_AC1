@@ -7,6 +7,7 @@
 
 # Gabriela Marto Barbosa
 ![image](https://user-images.githubusercontent.com/80834796/112924895-53a37b00-90e7-11eb-8710-9b69e25d3100.png)
+
 Meu nome é Gabriela Marto Barbosa, tenho 17 anos e faço aniversário dia 25 de março. Ainda tenho dúvidas sobre o que vou fazer futuramente, pois quero fazer muitas coisas. Gosto de desenhar, de jogar videogame, de escrever, de fazer construções virtuais, de maquiagem e de ler, basicamente artes em geral.
 
 # Gabriela Santos Godoy
