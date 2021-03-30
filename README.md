@@ -6,7 +6,7 @@
 ![image](https://user-images.githubusercontent.com/80834796/112921797-c9a4e380-90e1-11eb-90d5-05d0c479e288.png)
 
 # Gabriela Marto Barbosa
-![image](https://user-images.githubusercontent.com/80834796/112923230-4b960c00-90e4-11eb-8654-bbcf4df4254f.png)
+![image](https://user-images.githubusercontent.com/80834796/112923807-6026d400-90e5-11eb-9f9c-7e8e90203131.png)
 
 # Gabriela Santos Godoy
 ![image](https://user-images.githubusercontent.com/80834796/112922668-3ff61580-90e3-11eb-8e0f-d0b720b7c8ae.png)
