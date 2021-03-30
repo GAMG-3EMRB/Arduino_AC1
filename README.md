@@ -27,7 +27,8 @@ Fazer a leitura do sensor de luminosidade e testá-lo; ao indicar um valor acima
 
 Olá! Meu nome é Artur Maciel Rodrigues, mais conhecido como “Zeca”. Eu sempre tive um grande interesse por cozinhar e ler livros, e, no momento, estou gostando muito de aprender sobre códigos, porque está vindo como algo bom para, em geral, “requintar” minhas habilidades, além de, claro, ficar lindíssimo no currículo.
 
-**Função:** Chefe de organização de código.
+#### **Função:**
+Chefe de organização de código.
 
 ### Gabriela Marto Barbosa
 
