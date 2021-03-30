@@ -9,7 +9,7 @@
 ![image](https://user-images.githubusercontent.com/80834796/112924895-53a37b00-90e7-11eb-8710-9b69e25d3100.png)
 
 # Gabriela Santos Godoy
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/80834796/112925277-fbb94400-90e7-11eb-9ad3-ffc131b5cdfc.png)
 
 # Maria Julia Lenti de Espindola Munhoz
 ![image](https://user-images.githubusercontent.com/80834796/112922054-33bd8880-90e2-11eb-9fd8-cedb394e5e2a.png)
