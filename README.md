@@ -23,7 +23,7 @@ Fazer a leitura do sensor de luminosidade e testá-lo; ao indicar um valor acima
 
 ### Artur Maciel Rodrigues
 
-![image](https://user-images.githubusercontent.com/80834796/112986659-2632ed80-9138-11eb-8c85-cec21781740e.png)
+![image](https://user-images.githubusercontent.com/80834796/112994905-18359a80-9141-11eb-857d-a6c397482338.png)
 
 Olá! Meu nome é Artur Maciel Rodrigues, mais conhecido como “Zeca”. Eu sempre tive um grande interesse por cozinhar e ler livros, e, no momento, estou gostando muito de aprender sobre códigos, porque está vindo como algo bom para, em geral, “requintar” minhas habilidades, além de, claro, ficar lindíssimo no currículo.
 
