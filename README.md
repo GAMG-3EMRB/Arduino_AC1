@@ -14,7 +14,9 @@ Após realizar a montagem, o grupo conferirá a lista de funcionalidades e, assi
 ## OBJETIVOS
 
 Adicionar um botão para ligar e outro para desligar a produção, indicada pela LED de cor vermelha;
+
 Fazer a leitura do sensor de temperatura e testá-lo; ao atingir 15°C, a LED de cor azul deverá acender, devendo apagá-la somente através da indicação do serial;
+
 Fazer a leitura do sensor de luminosidade e testá-lo; ao indicar um valor acima de 5, a luminosidade do ambiente estará muito alta, devendo haver a sinalização através da indicação do serial e a LED de cor verde deverá permanecer acessível até a luminosidade abaixar.
 
 ## INTEGRANTES DO GRUPO
