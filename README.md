@@ -31,7 +31,7 @@ Olá! Meu nome é Artur Maciel Rodrigues, mais conhecido como “Zeca”. Eu sem
 
 ### Gabriela Marto Barbosa
 
-![image](https://user-images.githubusercontent.com/80834796/112992996-19fe5e80-913f-11eb-9c66-d922e1b674b7.png)
+![image](https://user-images.githubusercontent.com/80834796/112995619-c9d4cb80-9141-11eb-903e-02e8fed1671f.png)
 
 Oi! Meu nome é Gabriela Marto Barbosa, tenho 17 anos e faço aniversário dia 25 de março. Ainda tenho dúvidas sobre o que vou fazer futuramente, pois quero fazer muitas coisas. Gosto de desenhar, de jogar videogame, de escrever, de fazer construções virtuais, de maquiagem e de ler, basicamente de artes em geral.
 
