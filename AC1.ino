@@ -43,7 +43,7 @@ void loop()
     ledAzul(true);
     Serial.println("temperatura ideal");
   }else{
-    ledAzul(false);
+    ledAzul(false);//correção da palavra “falso” por “false”.
     Serial.println("temperatura não ideal!!");
   }
   if(getLuminosidade()>5){ //sensor de luminosidade ligado/desligado.
