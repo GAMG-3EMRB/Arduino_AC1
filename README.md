@@ -2,7 +2,7 @@
 
 ## GAMG – 3EMRB
 
-Correção de código, montagem de circuitos no Tinkercad e identificação de cada integrante. 
+Correção de código, montagem de circuito no Tinkercad e identificação de cada integrante. 
 
 ![image](https://user-images.githubusercontent.com/80834796/112986389-cfc5af00-9137-11eb-9939-c07edbb28bfc.png)
 
