@@ -2,7 +2,7 @@
 const int vermelho = 5; 
 const int verde = 6;
 const int azul = 7;
-
+//variavel do processo
 const int iniciar = 2;
 const int finalizar = 3;
 unsigned long lastDebounceTime1 = 0;
@@ -12,8 +12,8 @@ const int botaoDelay = 100;
 
 void setup()
 {
-  pinMode(A0, INPUT);
-  pinMode(A1, INPUT);
+  pinMode(A0, INPUT);//fotosensor (ideal +15)
+  pinMode(A1, INPUT);//termometro (ideal +5)
  
   pinMode(vermelho, OUTPUT);
   pinMode(verde, OUTPUT);
@@ -28,26 +28,30 @@ void setup()
 
 void loop()
 {
-  if((millis() - lastDebounceTime1) > botaoDelay && digitalRead(botao1)){
-  Serial.println("botao 1 apertado");
+  if((millis() - lastDebounceTime1) > botaoDelay && digitalRead(iniciar)){
+  Serial.println("iniciar processo");
     ledVermelho(true);
   lastDebounceTime1 = millis();
   }
-  if((millis() - lastDebounceTime1) > botaoDelay && digitalRead(botao2)){
-  Serial.println("botao 2 apertado");
+  if((millis() - lastDebounceTime1) > botaoDelay && digitalRead(finalizar)){
+  Serial.println("finalizar processo");
     ledVermelho(false);
   lastDebounceTime1 = millis();
   }
  
-  if(getTemperatura() >15){
+  if(getTemperatura() >15){//sensor de temperatura ligado/desligado
     ledAzul(true);
+    Serial.println("temperatura ideal");
   }else{
     ledAzul(false);
+    Serial.println("temperatura não ideal!!");
   }
-  if(getLuminosidade()>5){
+  if(getLuminosidade()>5){//sensor de luminosidade ligado/desligado
     ledVerde(true);
+    Serial.println("Iluminção certa");
   }else{
     ledVerde(false);
+    Serial.println("iluminçao muito escura!!");
    
   }
  
@@ -55,22 +59,23 @@ void loop()
 }
 
 void ledVermelho(bool estado){
-  digitalWrite(vermelho,estado);
+  digitalWrite(vermelho,estado); //indicador vermelho
 }
 void ledVerde(bool estado){
- digitalWrite(verde,estado);
+ digitalWrite(verde,estado); //indicador verde
 }
 void ledAzul(bool estado){
-digitalWrite(azul,estado);
+digitalWrite(azul,estado); //indicador azul
 }
+//Codigo de Temperatura completo
 int getTemperatura(){
-  int temperaturaC;
+  int temperaturaC; //não modificar!
 temperaturaC = map(((analogRead(A0) - 20) * 3.04), 0, 1023, -40, 125);
   return temperaturaC;
 }
-//funcao de leitura da luminosidade
+//Codigo de Luminosidade completo
 int getLuminosidade(){
-  int luminosidade;
+  int luminosidade; //não modificar!
 luminosidade = map(analogRead(A1), 6, 619, -3, 10);
   return luminosidade;
 }
