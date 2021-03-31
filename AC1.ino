@@ -6,13 +6,13 @@ const int azul = 7;
 const int iniciar = 2;
 const int finalizar = 3;
 unsigned long lastDebounceTime1 = 0;
-unsigned long lastDebounceTime2 = 1;
+unsigned long lastDebounceTime2 = 1; //acrescentamento da função “Time”.
 const int botaoDelay = 100;
 
 void setup()
 {
-  pinMode(A0, INPUT);//fotosensor (ideal +15)
-  pinMode(A1, INPUT);//termometro (ideal +5)
+  pinMode(A0, INPUT); //fotosensor (ideal +15).
+  pinMode(A1, INPUT); //termometro (ideal +5).
  
   pinMode(vermelho, OUTPUT);
   pinMode(verde, OUTPUT);
@@ -38,7 +38,7 @@ void loop()
   lastDebounceTime1 = millis();
   }
  
-  if(getTemperatura() >15){//sensor de temperatura ligado/desligado
+  if(getTemperatura() >15){ //sensor de temperatura ligado/desligado.
     //troca do “> 30” por “> 15”.
     ledAzul(true);
     Serial.println("temperatura ideal");
@@ -46,7 +46,7 @@ void loop()
     ledAzul(false);
     Serial.println("temperatura não ideal!!");
   }
-  if(getLuminosidade()>5){//sensor de luminosidade ligado/desligado
+  if(getLuminosidade()>5){ //sensor de luminosidade ligado/desligado.
     //montagem dos comandos da LED de cor verde.
     ledVerde(true);
     Serial.println("Iluminção certa");
@@ -60,13 +60,13 @@ void loop()
 }
 
 void ledVermelho(bool estado){
-  digitalWrite(vermelho,estado); //indicador vermelho
+  digitalWrite(vermelho,estado); //indicador vermelho.
 }
 void ledVerde(bool estado){
- digitalWrite(verde,estado); //indicador verde
+ digitalWrite(verde,estado); //indicador verde.
 }
 void ledAzul(bool estado){
-digitalWrite(azul,estado); //indicador azul
+digitalWrite(azul,estado); //indicador azul.
 }
 //Codigo de Temperatura completo
 int getTemperatura(){
