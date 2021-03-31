@@ -80,4 +80,3 @@ int getLuminosidade(){
 luminosidade = map(analogRead(A1), 6, 619, -3, 10);
   return luminosidade;
 }
-
