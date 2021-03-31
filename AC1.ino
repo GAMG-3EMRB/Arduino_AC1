@@ -22,7 +22,7 @@ void setup()
 
   Serial.println("AC1 - Meu Primeiro Projeto 2021");
   Serial.println("                           V1.0");
-  Serial.println("Grupo: GAMG");
+  Serial.println("Grupo: GAMG"); //acrescentamento do nome do grupo.
 }
 
 void loop()
