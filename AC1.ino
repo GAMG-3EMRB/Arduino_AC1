@@ -34,7 +34,7 @@ void loop()
   }
   if((millis() - lastDebounceTime1) > botaoDelay && digitalRead(finalizar)){
   Serial.println("finalizar processo");
-    ledVermelho(false);
+    ledVermelho(false); //acrescentamento, entre os parenteses, da palavra “false”.
   lastDebounceTime1 = millis();
   }
  
