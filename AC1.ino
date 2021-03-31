@@ -4,7 +4,7 @@ const int verde = 6;
 const int azul = 7;
 //variavel do processo
 const int iniciar = 2; //acrescentamento da função “iniciar”.
-const int finalizar = 3;
+const int finalizar = 3;//acrescentamento da função “finalizar”
 unsigned long lastDebounceTime1 = 0;
 unsigned long lastDebounceTime2 = 1; //acrescentamento da função “Time”.
 const int botaoDelay = 100;
