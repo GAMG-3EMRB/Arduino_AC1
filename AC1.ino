@@ -50,7 +50,7 @@ void loop()
     Serial.println("Iluminção certa");
   }else{
     ledVerde(false);
-    Serial.println("iluminçao muito escura!!");
+    Serial.println("Iluminção muito escura!!");
  
   }
  
