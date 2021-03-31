@@ -47,6 +47,7 @@ void loop()
     Serial.println("temperatura não ideal!!");
   }
   if(getLuminosidade()>5){//sensor de luminosidade ligado/desligado
+    //montagem dos comandos da LED de cor verde.
     ledVerde(true);
     Serial.println("Iluminção certa");
   }else{
