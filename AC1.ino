@@ -1,5 +1,5 @@
 //variaveis da led
-const int vermelho = 5;
+const int vermelho = 5; // Marto é bobona
 const int verde = 6;
 const int azul = 7;
 
