@@ -9,7 +9,6 @@ unsigned long lastDebounceTime1 = 0;
 unsigned long lastDebounceTime2 = 1;
 const int botaoDelay = 100;
 
-
 void setup()
 {
   pinMode(A0, INPUT);//fotosensor (ideal +15)
@@ -52,7 +51,7 @@ void loop()
   }else{
     ledVerde(false);
     Serial.println("iluminçao muito escura!!");
-   
+ 
   }
  
   delay(10);
