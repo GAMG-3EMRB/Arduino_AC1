@@ -39,6 +39,7 @@ void loop()
   }
  
   if(getTemperatura() >15){//sensor de temperatura ligado/desligado
+    //troca do “> 30” por “> 15”.
     ledAzul(true);
     Serial.println("temperatura ideal");
   }else{
