@@ -29,7 +29,7 @@ void loop()
 {
   if((millis() - lastDebounceTime1) > botaoDelay && digitalRead(iniciar)){
   Serial.println("iniciar processo");
-    ledVermelho(true);
+    ledVermelho(true); //acrescentamento, entre os parênteses, da palavra “true”.
   lastDebounceTime1 = millis();
   }
   if((millis() - lastDebounceTime1) > botaoDelay && digitalRead(finalizar)){
