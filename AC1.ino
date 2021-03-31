@@ -16,7 +16,7 @@ void setup()
  
   pinMode(vermelho, OUTPUT);
   pinMode(verde, OUTPUT);
-  pinMode(azul, OUTPUT);
+  pinMode(azul, OUTPUT);//correção da palavra “saida” por “OUTPUT”
  
   Serial.begin(9600);
 
