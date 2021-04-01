@@ -4,7 +4,7 @@ const int verde = 6;
 const int azul = 7;
 //variavel do processo
 const int iniciar = 2; //acrescentamento da função “iniciar”.
-const int finalizar = 3;//acrescentamento da função “finalizar”
+const int finalizar = 3; //acrescentamento da função “finalizar”
 unsigned long lastDebounceTime1 = 0;
 unsigned long lastDebounceTime2 = 1; //acrescentamento da função “Time”.
 const int botaoDelay = 100;
@@ -16,7 +16,7 @@ void setup()
  
   pinMode(vermelho, OUTPUT);
   pinMode(verde, OUTPUT);
-  pinMode(azul, OUTPUT);//correção da palavra “saida” por “OUTPUT”
+  pinMode(azul, OUTPUT); //correção da palavra “saida” por “OUTPUT”.
  
   Serial.begin(9600);
 
@@ -34,7 +34,7 @@ void loop()
   }
   if((millis() - lastDebounceTime1) > botaoDelay && digitalRead(finalizar)){
   Serial.println("finalizar processo");
-    ledVermelho(false); //acrescentamento, entre os parenteses, da palavra “false”.
+    ledVermelho(false); //acrescentamento, entre os parênteses, da palavra “false”.
   lastDebounceTime1 = millis();
   }
  
@@ -43,7 +43,7 @@ void loop()
     ledAzul(true);
     Serial.println("temperatura ideal");
   }else{
-    ledAzul(false);//correção da palavra “falso” por “false”.
+    ledAzul(false); //correção da palavra “falso” por “false”.
     Serial.println("temperatura não ideal!!");
   }
   if(getLuminosidade()>5){ //sensor de luminosidade ligado/desligado.
